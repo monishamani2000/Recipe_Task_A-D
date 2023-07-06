@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+
+}
+.meals{
+    text-align: center;
+    max-width: 45rem;
+    width: 90%;
+    margin: -10rem auto auto;
+    position: relative;
+    background-color: #383838;
+    color: #fff;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 1px 18px 10px rgba(0,0,0,.25);
+}
+.food{
+font-size: xx-large;
+}
+
+.add{
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+   
+}
+.card{
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    border-radius: 14px;
+    background-color: #fff;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list1{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 1rem; */
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.rate{
+    
+    font-weight: 700;
+    color: #ad5502;
+    font-size: 1.25rem;
+
+}
+.div1{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 0.5rem; */
+}
+.no1{
+    width: 3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    margin-right: 3rem;
+    text-align: center;
+}
+.but1{
+    position: relative;
+    font: inherit;
+    font-weight: 900;
+    color: #8a2b06;
+    border: 1px solid #8a2b06;
+    text-align: center;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0.25rem;
+    justify-content: center;
+    padding: 0 0.5rem;
+}
+
+.butt{
+    display: block;
+    width: 100%;
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: #fff;
+    padding: 0.25rem 2.5rem;
+    border-radius: 20px;
+    font-weight: 700;
+    /* margin-top: 9rem; */
+}
+.form1{
+ transform: translateY(-120%);
+ margin-left: 40em;
+ position: absolute;
+ display: grid;
+ grid-template-rows: max-content;
+}  
+.count{
+    font-size: larger;
+}
+.plus{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50;
+    border: .2px solid grey ;
+    text-align: center;
+    padding: .2em;
+}
+
+.pop
+{
+  position: fixed;
+  z-index: 999 ;
+ 
+  display: flex;
+  justify-content: center;
+  /* transition: all .9s linear; */
+  width: 100%;
+ background-position: center;
+ position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.pop-2
+{
+   /* height: 50vh; */
+    width:50%;
+    margin-top: 20vh;
+    border-radius: 10px;
+    background-color: white;
+}
+.pop-2 button
+{
+    border: 2px solid #8A2B06;
+    padding:.5rem  2rem;
+    border-radius: 20px;
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+
+}
+.pop-2 button:hover
+{
+    background-color: #8A2B06;
+    color: white;
+}
+.pop-3
+{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 30px; */
+
+}
+.click_but{
+    margin-bottom: 4em;
+}
+.but11{
+    position: relative;
+    font: inherit;
+    font-weight: 900;
+    color: #f8f4f2;
+    border: 1px solid #e0d8d4;
+    text-align: center;
+    border-radius: 40%;
+    background-color: transparent;
+    justify-content: center;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    margin-left: 54rem;
+}
+.but12{
+   
+        position: relative;
+        font: inherit;
+        font-weight: 900;
+        color: #8a2b06;
+        border: 1px solid #8a2b06;
+        text-align: center;
+        border-radius: 50%;
+        background-color: transparent;
+        cursor: pointer;
+        justify-content: center;
+        padding: 0 0.5rem;
+        margin-top: 3;
+}
+
+.listadd{
+    display: inline-block;
+    /* border: 2px solid; */
+}
+
+.foodname{
+    font-size: larger;
+}
+.card_order{
+    display: flex;
+}
+.new{
+  margin-left: 1em ;
+    color: #8A2B06;
+}
+.bg{
+    background-color: #383838;
+}
+.new_item{
+    margin-left: 1em;
+}
+.price_box{
+    width: 6em;
+}
+.but123{
+        position: relative;
+        /* font: inherit; */
+        font-weight: 900;
+        margin-left: 2em;
+        color: #8a2b06;
+        border: 1px solid #8a2b06;
+        text-align: center;
+        border-radius: 60%;
+        background-color: transparent;
+        cursor: pointer;
+        justify-content: center;
+        padding: 0 0.5rem;
+        margin-top: 3em;
+}
+.decres{
+  padding: 0;
+  font-weight: bolder;
+}
+.card_add{
+    margin-left: 13em;
+    transform: translateY(-4em);
+    position:static  ;
+}
+.last_amount{
+    margin-left: 14.5em;  
+}
+
+
+
+/* ________________________Result */
+
+*{
+    box-sizing: border-box;
+}
+.last_pop{
+    position: fixed;
+    top: 15vh;
+    left: 5%;
+    width: 90%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    z-index: 30;
+}
+.last_but{
+    text-align: right;
+}
+.last_but .close{
+    background-color: #8a2b06;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+    
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

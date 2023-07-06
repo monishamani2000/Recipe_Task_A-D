@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: "Noto Sans JP",sans-serif;
+    
+}
+.main_1{
+    position: fixed;
+    top: 15vh;
+    left: 25%;
+    width: 50%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    z-index: 30; 
+    
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.main_3{
+    margin: 1rem 0;
+}
+form{
+    display: block;
+}
+.div_a{
+    margin-bottom: 0.5rem;
+}
+    label{
+        font-weight: 700;
+        /* margin-bottom: 0.25rem; */
+        line-height: 1em;
+        display: block;
+    }
+.div_a input{
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+
+
+.div_b{
+    margin-bottom: 0.5rem;
+}
+.div_b label{
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.div_b  input{
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.div_c{
+    margin-bottom: 0.5rem;
+}
+.div_c label{
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.div_c input{
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.div_d{
+    margin-bottom: 0.5rem;
+}
+.div_d label{
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.div_d input{
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+.post_err{
+    color: red;
+}
+
+.div_e{
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+.div_e button{
+    font-family: inherit;
+    cursor: pointer;
+    color: #5a1a01;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    letter-spacing: normal;
+    font-size: large;
+}
+.div_e button:hover{
+    background-color: #5a1a01;
+    color: white;
+}
+.div_e .confirm{
+        border: 1px solid #5a1a01;
+        background-color: #5a1a01;
+        color: #fff;
+        font-size: medium;
+}
+.last_pop{
+    width: 35em;
+    left: 25em;
+}
+.submit{
+    position: relative;
+    font: inherit;
+    color: #fff;
+    border: 1px solid #8a2b06;
+    border-radius: 50%;
+    background-color: #8a2b06;
+    cursor: pointer;
+   
+}
